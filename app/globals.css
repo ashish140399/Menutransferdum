@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin-top: 108px;
+
+  @media (max-width: 768px) {
+    margin-top: 92px;
+  }
+}
+
+button {
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+*.brown {
+  color: #fb8a22;
+}
+
+*.gray {
+  color: #000000bb;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #99999999; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid transparent; /* creates padding around scroll thumb */
+}
